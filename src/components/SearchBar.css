@@ -1,0 +1,16 @@
+.segment{
+    width:75%;
+    margin:0px auto !important;
+    background-color: #c2c2c2 !important;
+}
+input[type="text"]{
+    background-color:lightgrey !important;
+}
+input[type="text"]::placeholder{
+    color: rgba(0, 0, 0, 0.826) !important;
+}
+@media screen and (max-width:810px){
+    .segment{
+        width:90% !important;
+    }
+}
